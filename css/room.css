@@ -1,0 +1,381 @@
+.room_breadcrumb{
+        margin-top: 90px;
+}
+.container .row ol li a:hover{
+    text-decoration: none;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content:">"!important;
+    font-size: 17px!important;
+    font-weight: 600;
+    padding-right: 5px!important;
+    color: #aaaab3!important;
+}
+.container .row ol{
+    background-color: white;
+    border-radius: 0rem;
+    margin-left: 197px;
+}
+.container .row ol li{
+    font-size: 20px
+}
+.container .row ol li a:first-child{
+    color: black;
+}
+.container .row ol .active{
+    color: #aaaab3!important;
+}
+.container .row h1{
+    font-family: 'Lora', serif;
+}
+.room_details .row > div > div{
+    border: 1px solid #EBEBEB;
+}
+.room_details .row > div > div img{
+    width: 100%;
+}
+.room_details .row > div > div{
+    margin-bottom: 20px;
+}
+.room_details .row > div > div .table td, .table th {
+    border-top: none;
+    color: #70707D;
+    font-weight: 400;
+}
+.room_details .row > div > div a{
+    color: #2F191A;
+    padding-left: 14px;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    position: relative;
+}
+.room_details .row > div > div a:hover{
+    text-decoration: none;
+}
+.room_details .row > div > div a::after{
+    position: absolute;
+    left: 12px;
+    bottom: -5px;
+    width: 92%;
+    height: 2px;
+    background: #dfa974;
+    content: "";
+}
+.room_details .row > div > div > div{
+    padding-left: 24px;
+    padding-right: 16px;
+    margin-top: 17px;
+    margin-bottom: 26px;
+}
+.room_details .row > div > div > div h3{
+    font-size: 22px;
+    padding: 11px 0px;
+}
+.room_details .row > div > div h2{
+    color: #DFA974;
+}
+.pages{
+    margin-top: 50px;
+}
+.pages nav ul li a{
+    margin-right: 10px;
+    font-size: 16px;
+    color: #707079;
+    border: 1px solid #efd4b9;
+    border-radius: 2px;
+    padding: 7px 13px 5px;
+    border-top-left-radius: 0px!important; 
+    border-bottom-left-radius: 0px!important;
+    font-weight: 500;
+}
+.pages nav ul li a:hover{
+    color: white;
+    border: 1px solid #efd4b9;
+    background-color: #DFA974;
+    
+}
+.about_us {
+    margin-top: 100px;
+}
+.about_us .row >div ul li { 
+    list-style: none;
+    color: #707481;
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+.about_us .row >div ul li span{
+    color: #E0A974;
+}
+.about_us .row >div h1{
+    font-size: 44px;
+    color: #19191a;
+    margin-bottom: 18px;
+}
+.about_us .row >div p{
+    font-size: 18px;
+    color: #707079;
+    line-height: 28px;
+}
+.about-service {
+    margin-top: 50px;
+}
+.about-service .row > div > div{
+    position: relative;
+    height: 420px;
+    border-radius: 5px;
+    margin-bottom: 30px; 
+    background-size: 100% 100%;  
+}
+.about-service .row .content-img1{
+    background-image: url(images/about/about-p1.jpg);  
+}
+.about-service .row .content-img2{
+    background-image: url(images/about/about-p2.jpg);  
+}
+.about-service .row .content-img3{
+    background-image: url(images/about/about-p3.jpg);  
+}
+.about-service .row .content-img3 > div{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.about-service .row .content-img2 > div{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.about-service .row .content-img1 > div{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+   
+.about-service .row  div h3{
+    color: white;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-family: lora,serif;
+}
+.video{
+    background-image: url(images/about/video-bg.jpg);
+    background-size: 100% 100%;
+}
+.video .row > div{
+    padding: 120px 0px
+    
+}
+.video .row >div h2{
+    color: white;
+    font-size: 49px;
+    padding-bottom: 16px;
+}
+.video .row >div p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 36px;
+}
+
+.gallery{
+    margin-top: 100px;
+}
+.gallery-item{
+    height: 279px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.large-item{
+    height: 576px;
+}
+
+.gi-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    line-height: 400px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    color: white;
+}
+.gi-text {
+    font-weight: 400;
+    font-family: "Lora", serif;
+}
+.gallery-item:hover .gi-text{
+    opacity: 1;
+}
+  
+.section-title span {
+    font-size: 14px;
+    color: #dfa974;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.section-title h2 {
+    font-size: 44px;
+    color: #19191a;
+    line-height: 58px;
+    margin-top: 10px;
+    font-family: "Lora", serif;
+    margin-top: 
+
+}
+/*****************************************************************************/
+
+.event > div:nth-child(1) h1{
+    margin: 27px 0px;
+    font-family: 'IBM Plex Serif';
+}
+.event .blog-1 > div > div{
+    height: 450px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius:5px;
+}
+.event .blog-2 > div > div{
+    height: 450px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius:5px;
+}
+.event .blog-3 > div > div{
+    height: 450px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius:5px;
+}
+.event .row > div{
+    margin-bottom: 30px;
+}
+.event .blog-1  >div:nth-child(1) >div{
+    background-image: url(images/blog/blog-1.jpg);
+}
+.event .blog-1  >div:nth-child(2) >div{
+    background-image: url(images/blog/blog-2.jpg);
+}
+.event .blog-1 >div:nth-child(3) >div{
+    background-image: url(images/blog/blog-3.jpg);
+}
+.event .blog-2 >div:nth-child(1) >div{
+    background-image: url(images/blog/blog-4.jpg);
+}
+.event .blog-2 >div:nth-child(2) >div{
+    background-image: url(images/blog/blog-5.jpg);
+}
+.event .blog-2 >div:nth-child(3) >div{
+    background-image: url(images/blog/blog-6.jpg);
+}
+.event .blog-3 >div:nth-child(1) >div{
+    background-image: url(images/blog/blog-7.jpg);
+}
+.event .blog-3 >div:nth-child(2) >div{
+    background-image: url(images/blog/blog-8.jpg);
+}
+.event .blog-3 >div:nth-child(3) >div{
+    background-image: url(images/blog/blog-9.jpg);
+}
+.event .load a{
+    display: inline-block;
+    font-size: 13px;
+    color: #19191a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    position: relative;
+}
+.event .load a:hover{
+    text-decoration: none;
+}
+.event .load a::after{
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background: #dfa974;
+    content: "";
+}
+/**************************************************************************/
+.contact-form{
+    margin-top: 100px;
+   
+}
+.maps{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.maps .row > div .content{
+    box-shadow: 0px 14px 35px rgba(0, 0, 0, 0.15);
+}
+ .contact-form input[type="text"] , .contact-form input[type="email"]{
+    height: 50px;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    font-size: 16px;
+    color: #aaaab3;
+    margin-bottom: 28px;
+}
+.contact-form textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #e1e1e1;
+    font-size: 16px;
+    color: #aaaab3;
+    padding-left: 25px;
+    padding-top: 12px;
+    margin-bottom: 33px;
+    resize: none;
+}
+
+element.style {
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.contact-form button {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 2px;
+    background: #dfa974;
+    border: none;
+    padding: 14px 34px 13px;
+    display: inline-block;
+    border-radius: 0px;
+}
+.contact-form .right h2{
+    font-size: 44px;
+    color: #19191a;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-family: "Lora", serif;
+}
+
+.contact-form .right span{
+    margin-left: 10px;
+}
+
+.contact-form .right p{
+    font-size: 16px;
+    font-family: "Cabin", sans-serif;
+    color: #6b6b6b;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+}
